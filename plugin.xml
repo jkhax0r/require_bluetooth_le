@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" id="cordova-plugin-require-bluetoothle" version="1.0.0">
+  <name>Require Bluetooth LE Hardware</name>
+  <description>Require BLE hardware to be available</description>
+  <author>Jonathan Kaufmann</author>
+  <keywords>bluetooth,bluetoothle,bluetooth le,cordova</keywords>
+  <license>Apache 2.0</license>
+  <platform name="android">
+    <config-file target="AndroidManifest.xml" parent="/manifest">
+      <uses-feature android:name="android.hardware.BLUETOOTH_LE" android:required="true"/>
+      </config-file>
+  </platform>
+  <platform name="ios">
+  </platform>
+</plugin>
