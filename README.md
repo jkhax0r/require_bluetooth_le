@@ -4,4 +4,4 @@ Cordova/Phonegap plugin to insert a tag for \<uses-feature android:name="android
 
 Add this to your config.xml to enable:
 
-\<gap:plugin name="cordova-plugin-require-bluetoothle" source="npm" version="1.0.0" /\>
+\<gap:plugin name="cordova-plugin-require-bluetoothle" source="npm" version="1.0.2" /\>
