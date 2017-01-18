@@ -12,5 +12,13 @@
     </config-file>
   </platform>
   <platform name="ios">
+    <config-file target="*-Info.plist" parent="CFBundleURLTypes">
+      <array>
+        <dict>
+          <key>NSBluetoothPeripheralUsageDescription</key>
+          <string>The TankCheck sensors use bluetooth</string>
+        </dict>
+      </array>
+    </config-file>
   </platform>
 </plugin>
