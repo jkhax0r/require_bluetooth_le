@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-require-bluetoothle",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Require BLE hardware to be available",
   "cordova": {
     "id": "cordova-plugin-require-bluetoothle",
